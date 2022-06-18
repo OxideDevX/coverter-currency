@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="scripts.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Конвертер валют(використовую відкрите API ОщадБанка)</title>
+ 
+<b>Для роботи необхідно потрібно вибрати потрібну валюту та ввести в поле певне значення.</b>
+</head>
+<body>
+  <div class="link">
+    <h2>Калькулятор курсу валют:</h2>
+    <a href="https://bank.gov.ua/ua/open-data/api-dev">Для функціонування цього застосунку використовується відкрите API from "Ощадбанк"</a>
+  </div>
+  <div class="app">
+
+  </div>
+  <script>
+  const converter = new CurrencyConverter(".app").render();
+  </script>
+  
+</body>
+
+</html>
